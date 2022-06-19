@@ -3,9 +3,10 @@ static const Block blocks[] = {
 
 /*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
   {" [ ",  "st-nettraf",  1,  0},
+  {"] [ ",  "setxkbmap -query | grep layout | tr -d '[:space:]' | cut -d ':' -f 2",  0,  11},
   {"] [ ",  "st-internet",  10,  0},
   {"] [ ",  "st-battary",  10,  0},
-  {"] [ ",  "st-volume", 3,  0},
+  {"] [ ",  "st-volume", 0,  10},
   {"] ",  "st-clock",  59, 0},
 
 };
