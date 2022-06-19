@@ -7,6 +7,7 @@ static const Block blocks[] = {
   {"] [ ",  "st-internet",  10,  0},
   {"] [ ",  "st-battary",  10,  0},
   {"] [ ",  "st-volume", 0,  10},
+  {"] [ ",  "st-salah", 1440,  13},
   {"] ",  "st-clock",  59, 0},
 
 };
