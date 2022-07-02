@@ -6,7 +6,7 @@ static const Block blocks[] = {
   {"] [ ",  "setxkbmap -query | grep layout | tr -d '[:space:]' | cut -d ':' -f 2",  0,  11},
   {"] [ ",  "st-internet",  10,  0},
   {"] [ ",  "st-battary",  10,  0},
-  {"] [ ",  "st-volume", 0,  10},
+  {"] [ ",  "st-volume", 10,  10},
   {"] [ ",  "st-salah", 900,  13},
   {"] ",  "st-clock",  59, 0},
 
